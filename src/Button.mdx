@@ -1,0 +1,34 @@
+---
+name: Buttons
+route: /buttons
+---
+
+import { Playground } from "docz";
+import { Box, Label, Input, Button, Select } from "theme-ui";
+
+# Form Components
+
+Here is were we define all the form components and their style
+
+## primary button
+<Playground>
+  <Button
+    onClick={() => {
+      alert("You clicked me");
+    }}
+  >
+    Click me
+  </Button>
+</Playground>
+
+## variant secondary
+<Playground>
+  <Button
+    variant="secondary"
+    onClick={() => {
+      alert("You clicked me");
+    }}
+  >
+    Click me
+  </Button>
+</Playground>
